@@ -1,0 +1,73 @@
+*{
+    border: 0px none black;
+}
+
+#butn{
+    border-radius: 50%;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 50%;
+    margin-top: -35px;
+    left: 50%;
+    margin-left: -35px;
+    background-color: black;
+
+    background-image: url('https://img-blog.csdnimg.cn/20210715112625570.png');
+    background-size: 70px 70px;
+}
+#divDay{
+    border-radius: 50%;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 50%;
+    margin-top: -35px;
+    left: 50%;
+    margin-left: -35px;
+    background-color: black;
+}
+#divDay:hover{
+    animation: 1s kf_div infinite;
+}
+#divNight{
+    border-radius: 50%;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 50%;
+    margin-top: -35px;
+    left: 50%;
+    margin-left: -35px;
+    background-color: white;
+}
+#divNight:hover{
+    animation: 1s vid_fk infinite;
+}
+
+@keyframes kf_div{
+    0%{
+        width: 70px;
+        height: 70px;
+        background-color: black;
+    }100%{
+        width: 140px;
+        height: 140px;
+        margin-top: -70px;
+        margin-left: -70px;
+        background-color: white;
+    }
+}
+@keyframes vid_fk{
+    0%{
+        width: 70px;
+        height: 70px;
+        background-color: white;
+    }100%{
+        width: 140px;
+        height: 140px;
+        margin-top: -70px;
+        margin-left: -70px;
+        background-color: black;
+    }
+}
